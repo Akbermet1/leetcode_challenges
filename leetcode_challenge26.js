@@ -1,16 +1,16 @@
 var removeDuplicates = function(nums) {
-    let duplicates_total = 0;
-    let prev = nums[0];
+    let duplicatesTotal = 0;
+    let previousNumber = nums[0];
     for(let i = 1; i < nums.length; i++)
     {
-        if(prev === nums[i])
+        if(previousNumber === nums[i])
         {
             nums[i] = undefined;
-            duplicates_total++;
+            duplicatesTotal++;
         }
         else
         {
-            prev = nums[i];   
+            previousNumber = nums[i];   
         }    
     }
     
@@ -34,7 +34,7 @@ var removeDuplicates = function(nums) {
         i++;
     }
     
-    return nums.length - duplicates_total;
+    return nums.length - duplicatesTotal;
 };
 
 let arr = [1,2,2,3,4,4];
