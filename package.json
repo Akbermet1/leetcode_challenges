@@ -1,0 +1,23 @@
+{
+  "name": "leetcode_challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "leetcode_challenge26.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akbermet1/leetcode_challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akbermet1/leetcode_challenges/issues"
+  },
+  "homepage": "https://github.com/Akbermet1/leetcode_challenges#readme",
+  "devDependencies": {
+    "jest": "^27.2.4"
+  }
+}
