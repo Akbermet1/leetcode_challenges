@@ -38,13 +38,3 @@ function removeDuplicates(nums) {
 };
 
 module.exports = removeDuplicates;
-
-// let arr = [1,2,2,3,4,4];
-// let arr2 = [0,0,1,1,1,2,2,3,3,4];
-// let arr3 = [1,1,2];
-// let arr4 = [1,1,1,1,1,6];
-
-// console.log(removeDuplicates(arr));
-// console.log(removeDuplicates(arr2));
-// console.log(removeDuplicates(arr3));
-// console.log(removeDuplicates(arr4));
